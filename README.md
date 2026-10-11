@@ -1,4 +1,4 @@
-![icon](./src/main/resources/assets/basalt-crusher/icon.png)
+
 
 # Basalt Crusher
 Vanilla friendly fabric mod to make basalt great again.
