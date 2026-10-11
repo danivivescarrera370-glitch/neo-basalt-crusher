@@ -1,13 +1,13 @@
 modLoader="javafml"
-loaderVersion="[4,)"
+loaderVersion="[26,)"
 license="MIT"
 issueTracker="https://github.com"
 
 [[mods]]
 modId="basalt_crusher"
-version="${version}"
+version="1.0.0"
 displayName="Basalt Crusher"
-displayURL="http://www.gnomecraft.net/"
+displayURL="http://gnomecraft.net"
 logoFile="assets/basalt_crusher/icon.png"
 authors="GniftyGnome"
 description='''
@@ -17,13 +17,20 @@ Making basalt useful since 2022!
 [[dependencies.basalt_crusher]]
 modId="neoforge"
 type="required"
-versionRange="[21,)"
+versionRange="[26.2, 26.3)"
 ordering="NONE"
 side="BOTH"
 
 [[dependencies.basalt_crusher]]
 modId="minecraft"
 type="required"
-versionRange="[1.21,)"
+versionRange="[26.2, 26.3)"
 ordering="NONE"
+side="BOTH"
+
+[[dependencies.basalt_crusher]]
+modId="forgified_fabric_api"
+type="required"
+versionRange="*"
+ordering="AFT"
 side="BOTH"
