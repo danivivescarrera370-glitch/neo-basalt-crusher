@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+issueTracker="https://github.com"
+
+[[mods]]
+modId="basalt_crusher"
+version="${version}"
+displayName="Basalt Crusher"
+displayURL="http://www.gnomecraft.net/"
+logoFile="assets/basalt_crusher/icon.png"
+authors="GniftyGnome"
+description='''
+Making basalt useful since 2022!
+'''
+
+[[dependencies.basalt_crusher]]
+modId="neoforge"
+type="required"
+versionRange="[21,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.basalt_crusher]]
+modId="minecraft"
+type="required"
+versionRange="[1.21,)"
+ordering="NONE"
+side="BOTH"

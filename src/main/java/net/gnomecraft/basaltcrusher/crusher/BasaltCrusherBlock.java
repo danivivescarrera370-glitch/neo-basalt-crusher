@@ -88,7 +88,6 @@ public class BasaltCrusherBlock extends BaseEntityBlock {
 
         if (blockEntity instanceof BasaltCrusherEntity) {
             playerEntity.openMenu((MenuProvider) blockEntity);
-            // TODO: playerEntity.increaseStat(Stats.INTERACT_WITH_CRUSHER, 1);
         }
     }
 

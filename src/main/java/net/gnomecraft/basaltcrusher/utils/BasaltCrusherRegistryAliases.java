@@ -51,9 +51,4 @@ public class BasaltCrusherRegistryAliases {
     private static Map.Entry<Identifier, Identifier> entry(String name) {
         return Map.entry(Identifier.fromNamespaceAndPath("basalt-crusher", name), Identifier.fromNamespaceAndPath(BasaltCrusher.MOD_ID, name));
     }
-
-    // Changes the name without changing the mod ID
-    private static Map.Entry<Identifier, Identifier> entry(String oldName, String newName) {
-        return Map.entry(Identifier.fromNamespaceAndPath(BasaltCrusher.MOD_ID, oldName), Identifier.fromNamespaceAndPath(BasaltCrusher.MOD_ID, newName));
-    }
 }

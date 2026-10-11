@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:gravel",
+    {
+      "id": "basalt_crusher:volcanic_gravel",
+      "required": false
+    }
+  ]
+}
