@@ -238,7 +238,6 @@ public class GrizzlyEntity extends BlockEntity implements MenuProvider {
         return new GrizzlyScreenHandler(syncId, playerInventory, this.inventory, this.propertyDelegate);
     }
 
-    @SuppressWarnings("unused")
     public static void tick(Level level, BlockPos pos, BlockState state, GrizzlyEntity entity) {
         if (!level.isClientSide()) {
             entity.tickGrizzly(level, pos);

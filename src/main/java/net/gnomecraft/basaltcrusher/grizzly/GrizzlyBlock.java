@@ -13,6 +13,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.stats.Stats;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
@@ -90,7 +91,7 @@ public class GrizzlyBlock extends BaseEntityBlock {
 
         if (blockEntity instanceof GrizzlyEntity) {
             playerEntity.openMenu((MenuProvider) blockEntity);
-            // TODO: playerEntity.increaseStat(Stats.INTERACT_WITH_GRIZZLY, 1);
+            playerEntity.awardStat(Stats.INTERACT_WITH_GRINDSTONE);
         }
     }
 
